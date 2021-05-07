@@ -11,7 +11,7 @@
     "start": "composer install && npm install && grunt"
   },
   "dependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "~1.3.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-compress": "^1.4.3",
     "underscore": "^1.8.3"
