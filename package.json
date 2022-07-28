@@ -8,7 +8,7 @@
   "license": "GPL-2.0+",
   "readmeFilename": "README.md",
   "scripts": {
-    "start": "composer install && grunt",
+    "start": "composer install && npm install && grunt",
     "checkwp": "npm run configphpcs && npm run checkphp",
     "configphpcs": "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
     "checkphp": "vendor/bin/phpcs --standard=WordPress ./*.php ./src ./fields",
